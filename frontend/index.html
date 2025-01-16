@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,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">
+    "<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <div class="side-bar">
+        <div class="side-bar-nav">
+            <div class="logo">
+                <a href=""><img src="logo-new (2).png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="">
+                    <span><i class="fa-solid fa-house"></i></span>
+                    <span>Home</span>
+                </a></li>
+                <li><a href="">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span>Search</span>
+                </a></li>
+            </ul>
+        </div>
+
+        <div class="side-bar-nav box2">
+           
+            <ul>
+                <li><a href="">
+                    <span><i class="fa-solid fa-bookmark"></i></span>
+                    <span class="library">Your Library </span>
+                </a></li>
+                <li>
+                    <div class="side-bar-scroll">
+                        <div class="create-playlist">
+                            <h4>Create your first playlist</h4>
+                            <p>It's easy,we'll help you</p>
+                            <button>Create playlist</button>
+                        </div>
+                        <div class="create-playlist">
+                            <h4>Let's find some podcast to follow</h4>
+                            <p>We'll keep you upfdate on new episodes</p>
+                            <button>Browse Podcast</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="privacy">
+                <ul>
+                    <li>
+                        <a href="">Legal</a>
+                        <a href=""> Safet and privacy center</a>
+                        <a href="">Privacy policy</a>
+                    </li>
+                    <li>
+                        <a href="">Cookies</a>
+                        <a href="">About Ads</a>
+                        <a href="">Accessibility</a>
+                    </li>
+                    <li>
+                        <a href="">Cookies</a>
+                        
+                    </li>
+                </ul>
+            </div>
+
+         <div class="eng-btn">
+         <button>English</button>
+         </div>
+        </div>
+    </div>
+
+
+<div class="main-section">
+    <div class="top-nav">
+        <div class="prev-btn">
+            <button><i class="fa-solid fa-angle-left"></i></button>
+            <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+
+        <div class="login-btn">
+            <button class="sign-up">Sign Up</button>
+            <button class="login">Login</button>
+        </div>
+    </div>
+
+    <div class="spotify-playlist">
+        <h2>Popular Albums</h2>
+        <div class="card">
+            <div class="items">
+                <img src="item-6.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>ANIMALS</h4>
+                <p>Manam Bhardwaj, Vishal Mishra, Jaani</p>
+            </div>
+
+            <div class="items">
+                <img src="item-7.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>STILL ROLLING</h4>
+                <p>Shubh</p>
+            </div>
+            <div class="items">
+                <img src="item-8.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>HUSN</h4>
+                <p>Anuv Jain</p>
+            </div>
+            <div class="items">
+                <img src="item-9.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>MOOSETAPE</h4>
+                <p>Sidhu Moose wala</p>
+            </div>
+            <div class="items">
+                <img src="item-10.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>SATRANGA</h4>
+                <p>Arjit Singh, Sheryas Puranik,Siddharth-Garima</p>
+            </div>
+        </div>
+     </div> 
+     <div class="spotify-playlist">
+        <h2>Trending Episodes</h2>
+        <div class="card">
+            <div class="items">
+                <img src="item-1.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>LOFI BEATS</h4>
+                <p>chill beats, lofi vibes, new tracks every week...</p>
+            </div>
+
+            <div class="items">
+                <img src="item-2.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>TODAY'S TOP HITS</h4>
+                <p>SThe hottest 50. Cover: Charli XCX</p>
+            </div>
+            <div class="items">
+                <img src="item-3.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>CHILL OUT LOUNGE</h4>
+                <p>Just lean back and enjoy relaxed beats</p>
+            </div>
+            <div class="items">
+                <img src="item-4.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>ALL OUT 20s</h4>
+                <p>The biggest songs of the 2020s. Cover: Doja Cat</p>
+            </div>
+            <div class="items">
+                <img src="item-5.jpg" alt="">
+                <div class="play-btn">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h4>JAZZ IN THE BACKGROUND</h4>
+                <p>Soft instrumental Jazz for all your activities.</p>
+            </div>
+        </div>
+     </div>
+     <div class="footer-section">
+        <div class="footer">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <div>Company</div>
+                    <ul class="col-links">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">For the records</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-column">
+                    <div>Company</div>
+                    <ul class="col-links">
+                        <li><a href="">For Artists</a></li>
+                        <li><a href="">Developers</a></li>
+                        <li><a href="">Advertising</a></li>
+                        <li><a href="">Investors</a></li>
+                        <li><a href="">Vendors</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-column">
+                    <div>Company</div>
+                    <ul class="col-links">
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Free Mobile App</a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="social-links">
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <hr>
+
+     <div>
+        <p class="copyright">&copy; 2024 Spotify AB</p>
+     </div>
+</div>
+
+<div class="preview">
+    <div class="text">
+        <h4>Preview of Spotify</h4>
+        <p>Sign up to get unlimited songs and podcasts with occasioal ads.No credit card needed</p>
+    </div>
+    <div class="button">
+        <button>Sign up for free</button>
+    </div>
+</div>
+</body>
+</html>
